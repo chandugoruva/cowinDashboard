@@ -1,0 +1,53 @@
+.bg-color {
+  background-color: #161625;
+
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo {
+  height: 30px;
+  margin-right: 10px;
+}
+.logo-name {
+  color: #2cc6c6;
+  font-family: 'Roboto';
+}
+.heading {
+  color: #cbd5e1;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+.vaccination-coverage {
+  background-color: #1c1c2b;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.sub-heading {
+  color: #94a3b8;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.vaccination-gender {
+  background-color: #1c1c2b;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.for-pie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.vaccination-age {
+  background-color: #1c1c2b;
+  border-radius: 10px;
+  padding: 20px;
+}
