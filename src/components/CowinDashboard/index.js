@@ -160,21 +160,21 @@ class CowinDashboard extends Component {
     )
   }
 
-  onfailureDisplay = () => {
-    ;<div>
+  onfailureDisplay = () => (
+    <div>
       <img
         src="https://assets.ccbp.in/frontend/react-js/api-failure-view.png"
         alt="failure view"
       />
       <h1>Something went wrong</h1>
     </div>
-  }
+  )
 
-  onLoaderDisplay = () => {
-    ;<div data-testid="loader">
+  onLoaderDisplay = () => (
+    <div data-testid="loader">
       <Loader type="ThreeDots" color="#ffffff" height={80} width={80} />
     </div>
-  }
+  )
 
   onrenderDisplay = () => {
     const {status} = this.state
